@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    background-color: orange;
+    width: 50%;
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    text-transform: uppercase;
+}
+.playingField {
+    background-color: black;
+    display: grid;
+    border: 2px black;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto auto;
+    
+}
+.choice {
+    border: 2px solid yellow;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pics {
+    width: 85%;
+    height: 90%;
+    background-color: black;
+}
+.pics:hover {
+    transition: 0.6s;
+    opacity: 80%;
+    transform: translate(10%, 5%);
+    box-shadow: white 5px 5px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+button {
+    background-color: black;
+    color: orange;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    width: 27%;
+    height: 50px;
+    margin: auto;
+    align-items: center;
+    margin-top: 5%;
+    text-transform: uppercase;
+    border-radius: 12px;
+}
+button:hover {
+    background-color: yellow;
+    color: black;
+}
+.yourPickDiv {
+    border: 2px solid orange;
+    background-color: yellow;
+    color: black;
+    display: block;
+    margin-top: 5%;
+}
+.compPickDiv {
+    border: 2px solid orange;
+    background-color: yellow;
+    color: black;
+    display: block;
+    margin-top: 5%;
+}
+.winner {
+    background-color: black;
+    color: orange;
+    display: block;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#alertWin {
+    margin: 0 auto;
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-color: black;
+    color: white;
+}
+
+.scoreH {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.score {
+    line-height: 0%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
